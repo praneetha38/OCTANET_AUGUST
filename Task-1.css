@@ -1,0 +1,129 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+#header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+
+.header-content-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav-bar {
+  display: flex;
+}
+
+.nav-link {
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Home Section Styles */
+#home-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-image: url('https://celadonbooks.com/wp-content/uploads/2020/03/Historical-Fiction-1024x596.jpg');
+  background-size: cover;
+  color: white;
+}
+
+.eye-grabber {
+  text-align: center;
+  max-width: 600px;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Sections Styles */
+.sec-padding {
+  padding: 2rem;
+}
+
+.section-heading {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.sec-content-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Genres Section Styles */
+.tile {
+  flex: 1;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 0.5rem;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}
+
+/* Responsive Styling */
+@media screen and (max-width: 768px) {
+  .header-content-div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-link {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .eye-grabber {
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .sec-content-div {
+    flex-direction: column;
+  }
+
+  .tile {
+    flex: 1;
+    margin: 0.5rem 0;
+  }
+}

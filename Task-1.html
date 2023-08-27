@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>Bookstore Landing Page</title>
+<link rel="stylesheet" href="Task-1.css">
+</head>
+<body>
+<header id="header">
+  <div class="header-content-div">
+    <nav id="nav-bar">
+      <a href="#about" class="nav-link">ABOUT</a>
+      <a href="#genres" class="nav-link">GENRES</a>
+      <a href="#new-releases" class="nav-link">NEW RELEASES</a>
+      <a href="#benefits" class="nav-link">BENEFITS</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section id="home-sec" class="flexible home-sec">
+    <div class="eye-grabber">
+      <h1>Explore the World of Books.</h1>
+      <h2>
+        Dive into captivating stories, enlightening knowledge, and endless adventures.
+      </h2>
+      <button class="btn" onclick="window.location.href = '#contact';">
+        Start Reading
+      </button>
+    </div>
+  </section>
+  <section id="about" class="sec-padding">
+    <h3 class="section-heading">ABOUT US</h3>
+    <div class="sec-content-div flexible">
+      <p>
+        We are passionate about books and believe in the power of storytelling. Our bookstore offers a wide range of genres, from fiction to non-fiction, mystery to romance, and everything in between. We curate the best books for readers of all ages, providing a platform for you to immerse yourself in the literary world.
+      </p>
+    </div>
+  </section>
+  <section id="genres" class="sec-padding">
+    <h3 class="section-heading">GENRES</h3>
+    <div class="sec-content-div flexible">
+      <div class="tile">
+        <h4>Mystery</h4>
+        <p>
+          Unravel thrilling mysteries and solve intriguing puzzles in our selection of mystery books.
+        </p>
+      </div>
+      <div class="tile">
+        <h4>Fantasy</h4>
+        <p>
+          Immerse yourself in magical realms, epic quests, and fantastical adventures with our fantasy book collection.
+        </p>
+      </div>
+      <div class="tile">
+        <h4>Romance</h4>
+        <p>
+          Experience the joys and complexities of love through our carefully curated romance novels.
+        </p>
+      </div>
+      <div class="tile">
+        <h4>Science Fiction</h4>
+        <p>
+          Embark on futuristic journeys, encounter advanced technologies, and explore alternate realities in our science fiction collection.
+        </p>
+      </div>
+    </div>
+  </section>
+  
+  <section class="sec-padding" id="contact">
+    <h3 class="section-heading">CONTACT</h3>
+    <div class="sec-content-div flexible">
+      <h6>Get lost in the world of books. Contact us to start your reading journey:</h6>
+        <input type="submit" class="btn" id="submit" value="Start Reading" />
+    </div>
+  </section>
+</main>
+<footer>
+  Created by
+  <a href="#">Your Name</a>
+</footer>
+</body>
+</html>
